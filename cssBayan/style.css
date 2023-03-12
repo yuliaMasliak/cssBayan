@@ -72,3 +72,42 @@ i {
 .image {
   text-align: center;
 }
+
+@media (max-width: 550px) {
+  .app {
+    max-width: 80%;
+  }
+  h1 {
+    font-size: 32px;
+  }
+  ul {
+    padding-left: 12px;
+  }
+  li {
+    font-size: 12px;
+  }
+  .target:focus img {
+    height: 150px;
+    text-align: center;
+    transition: all 0.5s;
+  }
+  @media (max-width: 320px) {
+    .app {
+      max-width: 80%;
+    }
+    h1 {
+      font-size: 26px;
+    }
+    ul {
+      padding-left: 10px;
+    }
+    li {
+      font-size: 10px;
+    }
+    .target:focus img {
+      height: 120px;
+      text-align: center;
+      transition: all 0.5s;
+    }
+  }
+}
