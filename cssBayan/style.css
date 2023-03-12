@@ -1,0 +1,22 @@
+* {
+  font-family: 'Courier New', Courier, monospace;
+}
+.app {
+  margin: 0px auto;
+  max-width: 80%;
+  background-color: aliceblue;
+}
+ul {
+  list-style: none;
+}
+.collapsed {
+  display: flex;
+  width: 95%;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+li {
+  border-top: 0.5px solid rgba(128, 128, 128, 0.486);
+  border-bottom: 0.5px solid rgba(128, 128, 128, 0.486);
+}
