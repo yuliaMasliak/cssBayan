@@ -34,14 +34,14 @@ li {
   line-height: 16px;
   color: blue;
 }
-/* img {
-  height: 0px;
-  margin: 0px auto;
-} */
+a {
+  color: inherit;
+}
 li:hover {
   cursor: pointer;
   font-size: 14px;
 }
+
 img {
   height: 0px;
 }
@@ -50,9 +50,32 @@ li:hover img {
   text-align: center;
   transition: all 0.5s;
 }
+li::selection img {
+  height: 250px;
+}
+.target {
+  text-decoration: none;
+}
+.target:hover {
+  text-decoration: none;
+  color: black;
+}
+
+.target:focus img {
+  height: 250px;
+  text-align: center;
+  transition: all 0.5s;
+}
+
 i {
   visibility: hidden;
 }
+
 .image {
   text-align: center;
+}
+li:first-child img {
+  height: 250px;
+  text-align: center;
+  transition: all 0.5s;
 }
