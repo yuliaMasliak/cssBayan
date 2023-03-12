@@ -74,8 +74,3 @@ i {
 .image {
   text-align: center;
 }
-li:first-child img {
-  height: 250px;
-  text-align: center;
-  transition: all 0.5s;
-}
