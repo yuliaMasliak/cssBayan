@@ -2,20 +2,22 @@
   font-family: 'Courier New', Courier, monospace;
 }
 .app {
-  margin: 0px auto;
+  margin: 0 auto;
   max-width: 60%;
   background-color: aliceblue;
-  padding: 20px;
+  padding: 1em;
 }
 .app:hover i {
   visibility: visible;
-  font-size: 28px;
+}
+i {
+  font-size: 2em;
 }
 .app:hover li {
   color: black;
 }
 h1 {
-  margin-left: 50px;
+  margin-left: 7%;
 }
 ul {
   list-style: none;
@@ -25,13 +27,13 @@ ul {
   width: 95%;
   justify-content: space-between;
   align-items: center;
-  padding: 10px;
+  padding: 1%;
 }
 li {
-  border-top: 0.5px solid rgba(128, 128, 128, 0.486);
-  border-bottom: 0.5px solid rgba(128, 128, 128, 0.486);
-  font-size: 12px;
-  line-height: 16px;
+  border-top: 0.1em solid rgba(128, 128, 128, 0.486);
+  border-bottom: 0.1em solid rgba(128, 128, 128, 0.486);
+  font-size: 0.9em;
+  line-height: 1.6em;
   color: blue;
 }
 a {
@@ -39,14 +41,14 @@ a {
 }
 li:hover {
   cursor: pointer;
-  font-size: 14px;
+  font-size: 0.9em;
 }
 
 img {
-  height: 0px;
+  height: 0;
 }
 li:hover img {
-  height: 250px;
+  height: 20rem;
   text-align: center;
   transition: all 0.5s;
 }
@@ -60,7 +62,7 @@ li:hover img {
 }
 
 .target:focus img {
-  height: 250px;
+  height: 20rem;
   text-align: center;
   transition: all 0.5s;
 }
@@ -78,16 +80,24 @@ i {
     max-width: 80%;
   }
   h1 {
-    font-size: 32px;
+    font-size: 1.7rem;
   }
   ul {
-    padding-left: 12px;
+    padding-left: 0.7rem;
   }
   li {
-    font-size: 12px;
+    font-size: 0.7rem;
+  }
+  li:hover {
+    font-size: 0.7rem;
   }
   .target:focus img {
-    height: 150px;
+    height: 18rem;
+    text-align: center;
+    transition: all 0.5s;
+  }
+  li:hover img {
+    height: 18rem;
     text-align: center;
     transition: all 0.5s;
   }
@@ -96,16 +106,24 @@ i {
       max-width: 80%;
     }
     h1 {
-      font-size: 26px;
+      font-size: 0.7rem;
     }
     ul {
-      padding-left: 10px;
+      padding-left: 0.7rem;
     }
     li {
-      font-size: 10px;
+      font-size: 0.6rem;
+    }
+    li:hover {
+      font-size: 0.6rem;
     }
     .target:focus img {
-      height: 120px;
+      height: 10rem;
+      text-align: center;
+      transition: all 0.5s;
+    }
+    li:hover img {
+      height: 10rem;
       text-align: center;
       transition: all 0.5s;
     }
