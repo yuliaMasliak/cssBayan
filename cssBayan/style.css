@@ -3,9 +3,11 @@
 }
 .app {
   margin: 0 auto;
+  margin-top: 2%;
   max-width: 60%;
   background-color: rgba(212, 228, 241, 0.514);
   padding: 1em;
+  border-radius: 1em;
 }
 .app:hover i {
   visibility: visible;
