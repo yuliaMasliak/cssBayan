@@ -4,7 +4,7 @@
 .app {
   margin: 0 auto;
   max-width: 60%;
-  background-color: aliceblue;
+  background-color: rgba(212, 228, 241, 0.514);
   padding: 1em;
 }
 .app:hover i {
